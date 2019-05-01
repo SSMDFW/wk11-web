@@ -9,17 +9,17 @@
     <title>Latitude Weather Analysis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous">
+     <!-- jQuery CDN -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+     <!-- Bootstrap CDN -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </script>
 </head>
 
-<body>
+<body class="maincontainer">
+    <section class="rain">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -50,6 +50,7 @@
                   </ul>
                 </div>
               </nav>    
+        </section>
     
     
     
@@ -58,33 +59,26 @@
             <div class="col-md-8">
                 <div class="box box-left">
                     <section id="intro">
-                        <h1>Latitude</h1>
-                        <hr>
+                            <div class="jumbotron"> <h1>Latitude</h1></div>
                         <figure>
                             <a target="_blank" href=".\\assets-images\\Fig1.png">
                                 <img align="left" id="viz-main" src=".\\assets-images\\Fig1.png" alt="Latitude of cities"  style="width:200px;height:125px;">
                             </a>
                         </figure>
-
                         <section id="summary">
-                            <p>
+                             <p>
                                 Latitude - Latitude vs ?
-                    
                              </p>
-
-                            <p>  
+                            <p>
                                     visualize the weather of 500+ cities across the world of varying distance from the equator. 
                                     create a representative model of weather across world cities.               
                             </p>
-
                             <p>
                                 In building this dashboard, we'll create individual pages for each plot and a means by 
                                 which we can navigate between them. These pages will contain the visualizations and their 
                                 corresponding explanations. We'll also have a landing page, a page where we can see a comparison 
                                 of all of the plots, and another page where we can view the data used to build them.
-
                             </p>
-
                             <ul>
                                 <li>Temperature (F) vs. Latitude</li>
                                 <li>Humidity (%) vs. Latitude</li>
@@ -92,7 +86,6 @@
                                 <li>Wind Speed (mph) vs. Latitude</li>
 
                             </ul>
-
                         </section>
 
                     </section>
@@ -101,11 +94,10 @@
 
 
             <div class="col-md-4">
-                <div class="box box-right" style="width: 410px;height:350px;">
-                    <h2>Visualizations</h2>
-                    <hr>
-
-
+                <div class="box box-right" style="width: 410px;height:600px;">      
+                    <section id="intro">
+                    <div class="jumbotron"> <h2>Visualizations</h2> </div>       
+                    </section>
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>

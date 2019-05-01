@@ -1,26 +1,51 @@
+.maincontainer{color:lightgrey;
+  background-color: rgb(10, 10, 58);}
+
+.container {color:lightgrey;
+    background-color: rgb(10, 10, 58);}
+
+
+
 .navbar-default .navbar-brand {
-    color: #ffffff;
-    background-color: darkslategray;
+    color:lightgrey;
+    background-color: indigo;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     font-weight: 300;
 }
-
-.navbar-header{
+.text-left{
+  color:lightgrey;
+  background-color: indigo;}
+.navbar-header{color: lightgray;
     width:400px;
     margin-left:75px !important;
+    background-color: indigo;
 }
 
 .sigline{
-    color: slategray;
+  color: lightgray;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif
     
 }
 .navbar-header .navbar-toggle .collapsed {
-  float: right;
+  float: right;color: lightgray;
+  background: indigo;
 }
 
+.collapse.navbar-collapse {
+  color: lightgray;
+  background-color: indigo;
+}
+.navbar-light {
+  color: lightgray;
+  background-color: indigo;
+}
+
+.nav-link {
+  color: lightgray;
+  background-color: indigo;
+}
 .content{
     margin-top:100px;
 }
@@ -46,8 +71,8 @@ h3 {
 }
 
 .box {
-  color: black;
-  background: slategrey;
+  color: white;
+  background: rgb(10, 10, 58);
 }
 
 .box-left {
@@ -84,12 +109,12 @@ h3 {
 }
 
 .figure:active{
-  border: 5px solid slategrey;
+  border: 5px solid rgb(10, 10, 58);
 }
 
 .jumbotron {
-  color: #fff;
-  background: slategrey;
+  color: white;
+  background: maroon;
   width: 100%;
   height: 100%;
   padding: 25px
@@ -97,7 +122,7 @@ h3 {
 
 .table {
   color: #fff;
-  background: slategrey;
+  background: rgb(10, 10, 58);
   width: 100%;
   height: 100%;
   padding: 15px
@@ -129,9 +154,9 @@ h3 {
     }
 }
 @media (min-width: 768px) {
-  .row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
-      margin-top: 0;
-  }
+    .row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
+        margin-top: 0;
+    }
 }
 
 .footer {
@@ -139,7 +164,8 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: teal;
+    background-color: indigo;
     color: white;
     text-align: center;
   }
+  
