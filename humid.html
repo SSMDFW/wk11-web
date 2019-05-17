@@ -6,42 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comparison</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">   
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="maincontainer">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 
+<body class="maincontainer">
+    <section class="rain">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
-                </button>
-              
+                </button>                  
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                  
-                    <li class="nav-item">
-                      <a class="nav-link" href="data.html">Data</a>  
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="data.html">Data</a></li>
+                    <li><a class="nav-link" href="comparison.html">Comparison</a></li>
+                    <li class="dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">Plots<span class="caret"></a>
+                        <ul class="dropdown-menu">
+                         <li><a href="temp.html">Temperature</a></li> 
+                         <li><a href="humid.html">Humidity</a></li>
+                         <li><a href="cloud.html">Cloudiness</a></li>   
+                         <li><a href="wind.html">Wind Speed</a></li>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="comparison.html">Comparison</a>
-                    </li>
-                   
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="temp.html">Temperature</a>   
-                        <a class="dropdown-item" href="humid.html">Humidity</a>
-                        <a class="dropdown-item" href="cloud.html">Cloudiness</a>    
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
-                      </div>
-                    </li>
-                    
-                  </ul>
+                    </ul>
                 </div>
-              </nav> 
+              </nav>    
+        </section>
      
               <div class="container">
                 <div class="row row-grid">
